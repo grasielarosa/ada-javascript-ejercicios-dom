@@ -56,8 +56,11 @@
 //     termometro.style.color = `#F50101`
 // }
 
-
-
+//EJERCICIO 6
+// const percentual = prompt(`Cuanto progresaste hoy en porcentaje?`)
+// const number = parseInt(percentual)+'%'
+// const progreso = document.getElementById('div2')
+// progreso.style.width = number
 
 
 //EJERCÍCIO 9
@@ -72,3 +75,21 @@
 // else if (animal=='loro'){
 //     image.src='https://upload.wikimedia.org/wikipedia/commons/d/dd/Scarlet_Macaw_and_Blue-and-gold_Macaw.jpg'
 // }
+
+
+
+//ejercicio 11
+//En un documento `html` crear una lista desordenada con al menos 10 items que consistan en oraciones, frases o citas. Hacer un programa que al iniciarse pregunte mediante un `prompt` por una palabra y destaque en rojo y en negrita aquellos items de la lista cuyo texto contenga dicha palabra.
+
+//Guardo la palabra que hay que buscar
+//const palabra = prompt("ingrese su comida");
+//Guardo el texto donde aparece
+//const text = document.getElementById("text");
+
+//text.textContent optengo el texto del html,es decir,que tengo un string con el texto
+//const textHTML = text.textContent;
+
+//text.innerHTML voy a modificar el html
+//replaceAll voy a tomar lo que ingreso el usuario y agrarle la etiqueta de span
+//text.innerHTML = textHTML.replaceAll(palabra,`<span style="color:red;font-weight:bold">${palabra}</span>`);
+{/* <p id="text">Lorem casa ipsum dolor sit amet, consectetur adipisicing elit. At optio, odio earum temporibus atque debitis, nihil error assumenda maxime sunt magni inventore expedita neque, exercitationem voluptatum illo recusandae sequi esse? casa</p> */}
