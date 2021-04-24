@@ -32,6 +32,34 @@
 //     image.style.width = '800px'
 // }
 
+//EJERCICIO 5
+// const temperatura = prompt(`Cual es la temperatura actual?`)
+// const termometro = document.querySelector(`h1`)
+// termometro.innerText= `Temperatura actual: ${temperatura}º.`
+// if (temperatura<0){
+//     termometro.style.color = `#75B9D1`
+// }
+// else if (temperatura>=0 && temperatura<15){
+//     termometro.style.color = `#3887A3`
+// }
+// else if (temperatura>= 15 && temperatura<25){
+//     termometro.style.color = `green`
+
+// }
+// else if (temperatura>=25 && temperatura<30){
+//     termometro.style.color = `#FFDD01`
+// }
+// else if (temperatura>=30 && temperatura<35){
+//     termometro.style.color = `#FF3B0A`
+// }
+// else if (temperatura>=35){
+//     termometro.style.color = `#F50101`
+// }
+
+
+
+
+
 //EJERCÍCIO 9
 // const animal = prompt('Animal gato, perro o loro')
 // const image = document.querySelector('img')
